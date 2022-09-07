@@ -32,7 +32,7 @@ jobs:
       - name: Run a multi-line script
         run: |  
           docker build -t company/image_name 
-          docker build -t .github/workflows/inputbox.yml
+          docker build -t .github/workflows/inputbox.yml 79ced0a
 
           
           
